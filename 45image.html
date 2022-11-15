@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image gallery</title>
+</head>
+<style>
+    body{
+        background-image:linear-gradient(red, yellow);
+    }
+    h2{
+        background-color: brown;
+    }
+    .btn1{
+        background-color: black;
+        font-weight: 300;
+        font-size:large;
+        text-align: end;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .btn1::after{
+        content:"Read more->";
+    
+    }
+    .container{
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .container ul{
+        color: blue;
+    }
+    .container ul li{ 
+        margin: 15px;
+        padding: 5px;
+        width: 350px;
+        height: 250px;
+        float: left;
+        border: 2px solid blue;
+        list-style-type:none;
+    }
+    .container ul li:hover{
+        border:1px solid red;
+        }
+        container ul li{
+            text-align: center;
+        }
+        .desc{
+            text-align: center;
+            text-decoration-color: blue;
+            background-color:yellow;
+            margin-top: 5px;
+            padding: 5px;
+            font-weight: 10px;
+        }
+       /* .desc2{
+            text-align: center;
+            text-decoration-color: brown;
+            background-color: rgb(255, 247, 0);
+            margin-top: 5px;
+            padding: 5px;
+            font-weight: 10px;
+
+
+        }
+        .desc3{
+            text-align: center;
+            background-color: yellowgreen;
+            margin-top: 5px;
+            padding: 5px;
+            font-weight: 10px;
+
+
+        }
+        .desc4{
+            text-align: center;
+            background-color:yellow;
+            margin-top: 5px;
+            padding: 5px;
+            font-weight: 10px;
+
+
+        }
+        .desc5{
+            text-align: center;
+            background-color: yellow;
+            margin-top: 5px;
+            padding: 5px;
+            font-weight: 10px;
+
+
+        }*/
+</style>
+<body>
+    <h2 style="text-align:center ; color:blue">Image gallery website using Html and CSS</h2>
+    <div class="container"> 
+    <ul>
+    
+      
+        <li><a target="_blank"href="nature1.jpg">
+            <img src="nature1.jpg" height="250px"width="350px" alt="nature1"></a>
+            <div class="desc">NATURE1 </div></li>
+
+        <li><a target="_self" href="nature3.jpg" >
+            <img src="nature3.jpg" height="250px"width="350px" alt="nature3"></a>
+            <div class="desc">NATURE3 </div></li>
+
+        <li> <a target="_parent" href="tiger1.jpeg" >
+            <img src="tiger1.jpeg" height="250px"width="350px" alt="tiger1"></a>
+            <div class="desc"> TIGER </div></li>
+
+
+        <li> <a href="lion1.jpg" target="_top">
+            <img src="lion1.jpg"height="250px"width="350px" alt="lion1"> </a>
+            <div class="desc">LION </div></li>
+
+        <li> <a href="deer1.jpg" target="_self">
+            <img src="deer1.jpg" height="250px"width="350px"alt="deer1"></a>
+            <div class="desc">DEER</div></li>
+
+            <li> <a href="elephant1.jpg" target="_self">
+                <img src="elephant1.jpg" height="250px"width="350px"alt="deer1"></a>
+                <div class="desc">elephant</div></li>
+                <li> <a href="dog2.jpg" target="_self">
+                    <img src="dog2.jpg" height="250px"width="350px"alt="deer1"></a>
+                    <div class="desc">Dog1</div></li>
+                    <li> <a href="dog3.jpg" target="_self">
+                        <img src="dog3.jpg" height="250px"width="350px"alt="deer1"></a>
+                        <div class="desc">Dog3</div></li>
+                        <li> <a href="dog4.jpg" target="_self">
+                            <img src="dog4.jpg" height="250px"width="350px"alt="deer1"></a>
+                            <div class="desc">Dog4</div></li>
+        
+    
+                            <li> <a href="peacock1.jpg" target="_self">
+                                <img src="peacock1.jpg" height="250px"width="350px"alt="deer1"></a>
+                                <div class="desc">peacock</div></li>
+                                <li> <a href="peacock2.jpg" target="_self">
+                                    <img src="peacock2.jpg" height="250px"width="350px"alt="deer1"></a>
+                                    <div class="desc">peacock2</div></li>
+                                    <li> <a href="labrador.jpg" target="_self">
+                                        <img src="labrador.jpg" height="250px"width="350px"alt="deer1"></a>
+                                        <div class="desc">labrador</div></li><br><br>
+                    
+                            <div class="box">
+        
+    
+                                <img src="D:\html files\deer1.jpg" alt="img1" >
+                                <img src="D:\html files\dog1.jpg" alt="img2">
+                                <img src="D:\html files\elephant1.jpg" alt="img3">   
+                                <img src="D:\html files\cobra snake.jpg" alt="img4">   
+                                <img src="D:\html files\cat2.jpg" alt="img5">
+                                </div>
+                                <a  class=btn1 href="#button"><button>next page</a></button>
+                    
+                                    
+               
+                       
+            
+            
+        
+    
+
+    </ul>
+    </div>
+    
+</body>
+</html>
